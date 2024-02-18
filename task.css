@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #ffff;
+    color: #080808;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.bg-container{
+    background-image: url(header.png);
+    height: 75%;
+    width: 100%;
+}
+.containers{
+    display: none;
+}
+.head{
+    text-align: center;
+    padding-top: 120px;
+    font-style: italic;
+    color: white;
+    font-size: 40px;
+}
+.para{
+    font-size: 20px;
+    text-align: center;
+    font-family: bold;
+    color: white;
+}
+.components{
+    justify-content: center;
+    display: flex;
+}
+
+.head2{
+    text-align: center;
+    color: #080808;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+.container text-right{
+    box-sizing: 5px;
+}
+.success{
+    text-align: center;
+    color: #080808;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+.hello{
+    background-color: aliceblue;
+    width: 100%;
+    height: 90%;
+    display:flex;
+}
+.rit{
+    padding: 50px;
+}
+.but{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.trend{
+    text-align: center;
+    color: #080808;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+.trending{
+    display: flex;
+}
+.col1{
+    width: 328px;
+    height: 381px;
+    top: 2810px;
+    left: 39px;
+    border-radius: 12px;
+    border: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.col-3{
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    justify-content: space-around;
+
+}
+
+
+.bottom{
+    background-color: gray;
+    width: 1440px;
+    height: 250px;
+}
+.container{
+    padding-top: 20px;
+}
+.icons{
+    padding: 2px;
+}
+.location{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.listt{
+    color: white;
+    cursor: pointer;
+}
